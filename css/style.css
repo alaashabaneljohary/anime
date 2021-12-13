@@ -1,0 +1,352 @@
+/**
+* Template Name: anime-main - 
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  height: 100%;
+  font-family: "Mulish", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background: #0b0c2a;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+  color: #47b2e4;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #73c5eb;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Jost", sans-serif;
+}
+/*--------------------------------------------------------------
+# End General
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Section Header Start 
+--------------------------------------------------------------*/
+.header  .bg-light{
+  background: #070720 !important;
+}
+.header .nav-item {
+  margin-left: 20px;
+}
+.header  .nav-item .nav-link{
+  display: inline-block;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 15px;
+}
+.header .nav-item .active {
+  background: #e53637;
+  color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# Section Header End
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Section Home Start
+--------------------------------------------------------------*/
+#home .carousel-caption  .label {
+  background-color: #FFF;
+  color: #e53637;
+  display: inline-block;
+  padding: 5px 14px 3px;
+}
+#home .carousel-caption span {
+  font-size: 13px;
+  color: #FFF;
+  background-color: #e53637;
+  display: inline-block;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 14px 20px;
+  text-transform: uppercase;
+  margin-right: 1px;
+}
+#home .carousel-caption a i {
+  font-size: 20px;
+    display: inline-block;
+    background: #e53637;
+    padding: 11px 5px 16px 8px;
+    color: #ffffff;
+    border-radius: 0 4px 4px 0;
+}
+.slider {
+  background-image: url("../img/normal-breadcrumb.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  
+}
+.blog-content {
+  content: "";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  position: absolute;
+}
+.blog-content h4 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+/*--------------------------------------------------------------
+# Section Home End
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Product Section Begin Start
+--------------------------------------------------------------*/
+.Product .section-title h4 {
+  position: relative;
+  padding-left: 20px;
+  line-height: 21px;
+}
+.Product .section-title h4::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: -6px;
+  height: 32px;
+  width: 4px;
+  background-color: #e53637;
+
+}
+.Product .card-info {
+  overflow: hidden;
+  
+}
+ img {
+  width: 100%;
+}
+.Product .card-info .card-image .ep {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  padding: 5px 19px;
+  background-color: #e53637;
+  color: #FFF;
+}
+.card-image img {
+  transition: transform 0.7s linear;
+  
+}
+.card-image img:hover {
+
+  transform: rotate(180deg);
+}
+.Product .card-info  .card-image .comment {
+  position: absolute;
+   bottom:  150px ;
+  left: 10px;
+  background: #3d3d3d;
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #FFF;
+}
+.Product .card-info .card-image .view {
+  position: absolute;
+   bottom:  150px ;
+  right: 17px;
+  background: #3d3d3d;
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: 4px;
+  color: #FFF;
+  overflow: hidden;
+  font-size: 15px;
+}
+.view-top {
+  position: absolute;
+ top: 10px;
+ right: 17px;
+ background: #3d3d3d;
+ display: inline-block;
+ padding: 2px 10px;
+ border-radius: 4px;
+ color: #FFF;
+ overflow: hidden;
+ font-size: 15px;
+}
+.card-body span {
+  display: inline-block;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 1px 12px;
+}
+.card-image  .product__sidebar {
+ 
+  width: 100%;
+  height: 190px;
+  position: relative;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.card-image  .product__sidebar-1 {
+  background-image: url("../img/sidebar/tv-1.jpg");
+}
+.card-image  .product__sidebar-2 {
+  background-image: url("../img/sidebar/tv-2.jpg");
+}
+.card-image  .product__sidebar-3 {
+  background-image: url("../img/sidebar/tv-3.jpg");
+}
+.card-image  .product__sidebar-4 {
+  background-image: url("../img/sidebar/tv-4.jpg");
+}
+.card-image  .product__sidebar-5 {
+  background-image: url("../img/sidebar/tv-5.jpg");
+}
+.card-image  .product__sidebar-6 {
+  background-image: url("../img/blog/blog-1.jpg");
+}
+.card-image  .product__sidebar-7 {
+  background-image: url("../img/blog/blog-2.jpg");
+}
+.card-image  .product__sidebar-8 {
+  background-image: url("../img/blog/blog-3.jpg");
+}
+.card-image  .product__sidebar-9 {
+  background-image: url("../img/blog/blog-4.jpg");
+}
+.desc {
+  position: absolute;
+  bottom: 0;
+}
+/*--------------------------------------------------------------
+# Product Section Begin End
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#  Section Footer Start
+--------------------------------------------------------------*/
+.Footer {
+  background: #070720;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+
+/*--------------------------------------------------------------
+#  Section Footer End
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+#  Section Blog Start
+--------------------------------------------------------------*/
+.blog-item {
+
+  position: relative;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 10px;
+}
+.blog-item .blog-details {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50% , -80%);
+}
+.icon_calendar {
+  color: #e53637;
+  padding-right: 10px;
+}
+/*--------------------------------------------------------------
+#  Section Blog Start
+--------------------------------------------------------------*/
+
+.input__item {
+  width: 400px;
+  position: relative;
+}
+.form-control {
+
+   padding: 15px;
+   border-radius: 0;
+  
+}
+.site-btn {
+  font-size: 13px;
+  color: #ffffff;
+  background: #e53637;
+  font-weight: 700;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 12px 30px;
+}
+.login__social__links ul li a.facebook {
+  background: #4267b2;
+}
+.login__social__links ul li a {
+  color: #ffffff;
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+   letter-spacing: 2px; 
+  text-transform: uppercase;
+  width: 460px;
+  padding: 14px 0;
+  position: relative;
+  margin: 0 auto;
+}
+.login__social__links ul li {
+  
+  margin-bottom: 15px;
+}
+.login__social__links ul li a.google {
+  background: #ff4343;
+}
+
+.login__social__links ul li a.twitter {
+  background: #1da1f2;
+}
+
+.login__register h3 {
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Oswald", sans-serif;
+  margin-bottom: 30px;
+}
+.login__register .primary-btn {
+  background: #e53637;
+  padding: 12px 42px;
+}
+.primary-btn {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+form::after {
+  position: absolute;
+  right: -14px;
+  top: -40px;
+  height: 330px;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.2);
+  content: "";
+  
+}
